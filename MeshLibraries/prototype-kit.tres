@@ -1,4 +1,4 @@
-[gd_resource type="MeshLibrary" load_steps=748 format=4 uid="uid://q0dyv5s781mb"]
+[gd_resource type="MeshLibrary" format=4 uid="uid://q0dyv5s781mb"]
 
 [ext_resource type="Texture2D" uid="uid://k1ffbx7mwrvp" path="res://Assets/kenney_prototype-kit/column_colormap.png" id="1_wu7kv"]
 [ext_resource type="Texture2D" uid="uid://dycibne8rc2ms" path="res://Assets/kenney_prototype-kit/column-low_colormap.png" id="2_shvuv"]
