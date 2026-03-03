@@ -91,6 +91,7 @@
 [ext_resource type="PackedScene" uid="uid://puo3anm0riei" path="res://Assets/kenney_marble-kit/helix-half-left-col.glb" id="90_rqe4d"]
 [ext_resource type="Material" uid="uid://c2me70bjrfg4i" path="res://Assets/Materials/Marbel_Mat.tres" id="91_7w5nl"]
 [ext_resource type="PhysicsMaterial" uid="uid://bvuabjecy6wom" path="res://Assets/Materials/Marble_Physics.tres" id="91_v8gr5"]
+[ext_resource type="PackedScene" uid="uid://bly0kxgvkjfnj" path="res://Scenes/Levels/Block.tscn" id="92_v8gr5"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_7w5nl"]
 sky_top_color = Color(0.45242798, 0.4111421, 0.6055395, 1)
@@ -464,3 +465,5 @@ surface_material_override/0 = ExtResource("91_7w5nl")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D" unique_id=1132128807]
 shape = SubResource("SphereShape3D_7w5nl")
+
+[node name="RigidBody3D2" parent="." unique_id=983182734 instance=ExtResource("92_v8gr5")]
